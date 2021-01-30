@@ -102,7 +102,6 @@ a:hover{
   padding: 100px;
 }
 
-/*e4f9f5*/
 .skill-row {
   width: 50%;
   margin: 100px auto;
@@ -119,8 +118,8 @@ a:hover{
   margin: auto;
   margin-bottom: 30px;
 }
-
-.BUTTON_IKL {
+/*
+.btn{
    background: #11CDD4;
    background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
    background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
@@ -144,19 +143,14 @@ a:hover{
    text-align: center;
    margin-bottom: 30px;
 }
-
-.BUTTON_IKL:hover {
-   border: solid #337FED 1px;
-   background: #30E3CB;
-   background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
-   background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
-   background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
-   background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
-   background-image: -webkit-gradient(to bottom, #30E3CB, #2BC4AD);
-   -webkit-border-radius: 13px;
-   -moz-border-radius: 13px;
-   border-radius: 13px;
+*/
+.btn:hover {
+   border: solid primary 1px;
    text-decoration: none;
+}
+.footer-image{
+  height: 30px;
+  width: 30px;
 }
 .copy{
   color: #eaf6f6;
@@ -166,4 +160,14 @@ a:hover{
 .bottom-container {
    background-color: #51c2d5;
    padding: 50px 0 20px;
+}
+.nav-item{
+  color: #19456b;
+}
+.my_skills{
+  background-color: #51c2d5;
+}
+.mountain{
+  max-width: 100%;
+  height: auto;
 }

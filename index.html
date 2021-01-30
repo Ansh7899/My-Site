@@ -3,8 +3,12 @@
 
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   <title>Ansh Kumar Gupta</title>
-  <link rel="stylesheet" type="text/css" href="css/styles.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -12,61 +16,88 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
   <link rel="icon" href="css/Hydrattz-Multipurpose-Alphabet-Letter-A-violet.ico">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 
 <body>
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #bbf1fa" style="color: #19456b">
+    <a class="navbar-brand" href="https://ansh7899.github.io/My-Site/">Portfolio</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapse" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapse">
+      <ul class="navbar-nav ml-auto" style="text-align: left">
+        <li class="nav-item">
+          <a class="nav-link" href="#intro">Introduction</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#skill">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
   <div class="top-container">
     <img class="top-cloud" src="CSS - My Site Images/cloud.png" alt="cloud">
     <h1>I am ANSH</h1>
     <h2 class="temp">A PROGRAMMER<h2>
         <img class="bottom-cloud" src="CSS - My Site Images/cloud.png" alt="cloud">
-        <img src="CSS - My Site Images/mountain.png" alt="mountain">
+        <img class="mountain" src="CSS - My Site Images/mountain.png" alt="mountain">
   </div>
 
-  <div class="middle-container">
-    <div class="profile">
+  <div class="col-12 middle-container">
+    <div class="profile" id="intro">
       <img class="dp" src="CSS - My Site Images\circle-cropped.png" alt="">
       <h2>Hello.</h2>
       <p class="self_desc">I am a Junior year student at Amity University,Noida. I am a competetive programmer ,a problem solver, a developer and a ML enthusiast. I have keen interest in how new technologies work. I am currently working on building a
         good programing
         profile.</p>
     </div>
-    <hr>
-    <div class="skills">
-      <h2>My Skills.</h2>
-      <div class="skill-row">
-        <img class="cp" src="CSS - My Site Images\circle-cropped (2).png" alt="">
-        <h3>Competetive Programming</h3>
-        <p>I started competetive coding on HackerRank in my second year. Keep scorlling and you will find my profile link. Also I started competetive coding at codechef recently.</p>
-      </div>
-      <div class="skill-row">
-        <img class="dev" src="CSS - My Site Images\circle-cropped (1).png" alt="">
-        <h3>Developer</h3>
-        <p>I have made 2 projects till now in Java. Below is my Github profile. Do check them out and if possible star all those repositories. I also like Web-Development. You will find some of my web-dev projects there too.</p>
-      </div>
-      <div class="skill-row">
-        <img class="tech" src="CSS - My Site Images\circle-cropped (3).png" alt="">
-        <h3>Programming Languages and Technologies</h3>
-        <p>I know C,C++,Java,Python,SQL,Javascript,HTML,CSS. I have used Git, GitHub, React, Bootstrap, nodejs, monogoDB, MySQL etc in my projects and college</p>
+    <div class="my_skills">
+
+    </div>
+    <div class="my_skills">
+      <hr>
+      <div class="skills" id="skill">
+        <h2>My Skills.</h2>
+        <div class="skill-row">
+          <img class="cp" src="CSS - My Site Images\circle-cropped (2).png" alt="">
+          <h3>Competetive Programming</h3>
+          <p>I started competetive coding on HackerRank in my second year. Keep scorlling and you will find my profile link. Also I started competetive coding at codechef recently.</p>
+        </div>
+        <div class="skill-row">
+          <img class="dev" src="CSS - My Site Images\circle-cropped (1).png" alt="">
+          <h3>Developer</h3>
+          <p>I have made 2 projects till now in Java. Below is my Github profile. Do check them out and if possible star all those repositories. I also like Web-Development. You will find some of my web-dev projects there too.</p>
+        </div>
+        <div class="skill-row">
+          <img class="tech" src="CSS - My Site Images\circle-cropped (3).png" alt="">
+          <h3>Programming Languages and Technologies</h3>
+          <p>I know C,C++,Java,Python,SQL,Javascript,HTML,CSS. I have used Git, GitHub, React, Bootstrap, nodejs, monogoDB, MySQL etc in my projects and college</p>
+        </div>
+      <hr>
       </div>
     </div>
-    <hr>
-    <div class="contact-me">
+
+
+    <div class="contact-me" id="contact">
       <h2>Get In Touch</h2>
       <h3>Thank you for visitng my site</h3>
       <p class="end_desc">Below are some platforms on which you can connect with me. Do leave a review. Your advice is much appreciated.</p>
-      <a href="mailto:anshhunny2000@gmail.com" class="BUTTON_IKL">CONTACT ME</a>
+      <a href="mailto:anshhunny2000@gmail.com" class="btn btn-primary btn-info"><span class="glyphicon glyphicon-pencil"></span> CONTACT ME</a>
     </div>
   </div>
 
 
-  <div class="bottom-container">
-    <a class="footer-link" href="https://www.linkedin.com/in/ansh-kumar-gupta-144123197/">LinkedIn</a>
-    <a class="footer-link" href="https://twitter.com/Ansh18566595">Twitter</a>
-    <a class="footer-link" href="https://www.hackerrank.com/Ansh7899">Hackerrank</a>
-    <a class="footer-link" href="https://github.com/Ansh7899">GitHub</a>
-    <a class="footer-link" href="https://www.facebook.com/anshkumar.gupta.180/">Facebook</a>
-    <a class="footer-link" href="https://www.instagram.com/_ansh7899_/">Instagram</a>
+  <div class=" col-12 bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/in/ansh-kumar-gupta-144123197/"><img class="footer-image" src="CSS - My Site Images\li.png" alt=""></a>
+    <a class="footer-link" href="https://twitter.com/Ansh18566595"><img class="footer-image" src="CSS - My Site Images\t.png" alt=""></a>
+    <a class="footer-link" href="https://www.hackerrank.com/Ansh7899"><img class="footer-image" src="CSS - My Site Images\hr.png" alt=""></a>
+    <a class="footer-link" href="https://github.com/Ansh7899"><img class="footer-image" src="CSS - My Site Images\gh.png" alt=""></a>
+    <a class="footer-link" href="https://www.facebook.com/anshkumar.gupta.180/"><img class="footer-image" src="CSS - My Site Images\fb.png" alt=""></a>
+    <a class="footer-link" href="https://www.instagram.com/_ansh7899_/"><img class="footer-image" src="CSS - My Site Images\ig.png" alt=""></a>
     <p class="copy">© 2021 Ansh Kumar Gupta</p>
   </div>
 </body>
